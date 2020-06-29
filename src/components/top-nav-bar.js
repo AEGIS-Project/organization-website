@@ -33,7 +33,7 @@ function TopNavBar () {
                   fontFamily:"Lucida Console",
                   }}>
           <Menu.Item key="home" style={{marginRight:'auto'}}>
-            <Link to={"/"}><b>The AEGIS Project</b></Link>
+            <Link to={"/"}><b>The AEGIS Initiative</b></Link>
           </Menu.Item>
 
           <Menu.Item key="aboutus">
