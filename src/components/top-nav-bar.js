@@ -30,28 +30,27 @@ function TopNavBar () {
                   justifyContent:"center",
                   backgroundColor:"white",
                   fontSize:"16px",
+                  lineHeight:"55px",
                   fontFamily:"Lucida Console",
                   }}>
           <Menu.Item key="home" style={{marginRight:'auto'}}>
-            <Link to={"/"}><b>The AEGIS Initiative</b></Link>
+            <Link to={"/"}><b style={{fontSize: "18px"}}>The AEGIS Initiative</b></Link>
           </Menu.Item>
 
-          <Menu.Item key="aboutus">
+          {/**<Menu.Item key="aboutus">
             <Link to={"/who-we-are"}>WHO WE ARE</Link>
-          </Menu.Item>
+          </Menu.Item>*/}
 
-          <Menu.Item key="mission">
-            <Link to={"/what-we-do"}> WHAT WE DO</Link>
-          </Menu.Item>
+          {/**<Menu.Item key="mission">
+            <Link to={"/what-we-do"}>WHAT WE DO</Link>
+          </Menu.Item>*/}
 
           <Menu.Item key="projects">
-            <Link to={"/our-work"}> SEE OUR WORK</Link>
+            <Link to={"/our-work"}>OUR WORK</Link>
           </Menu.Item>
 
           <Menu.Item key="supportus">
-            {//<Link to={"/support-us"}>SUPPORT US</Link>
-            }
-            SUPPORT US
+            <Link to={"/support-us"}>SUPPORT US</Link>
           </Menu.Item>
 
 

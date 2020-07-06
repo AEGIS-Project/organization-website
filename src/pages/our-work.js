@@ -4,38 +4,48 @@ import { Card } from 'antd';
 
 import TopNavBar from '../components/top-nav-bar.js'
 import BannerPhoto from '../components/banner-photo.js'
-
+import SectionHeader from '../components/section-header.js'
+import AsymmetricOverlapSplit from '../components/asymmetric-overlap-split.js'
+import Footer from "../components/footer";
 
 function OurWork() {
-	const { Meta } = Card;
+    const { Meta } = Card;
 
   return (
     <div>
-      <TopNavBar />
-      <BannerPhoto 
-      	text='See the technologies we create.'
-			/>
-			<div style={{
-				display:'flex',
-				justifyContent:'center',
-				backgroundColor: '#e8fffd'
-			}}>
-				<a href='http://robobot-react-app.herokuapp.com'
-					 target="_blank">
-					<Card
-				    hoverable
-				    style={{ width: '40vw',
-				    				 padding: '20px',
-				    				 margin: '20px',
-				    				 backgroundColor:'#d9fffb'
-				    				  }}
-				    cover={<img alt="example" 
-				    						src="/robobot.png" />}
-				    title="Robobot" >
-				    <Meta title="An educational robotics environment in the browser with real-world physics" description="" />
-				  </Card>
-			  </a>
-		  </div>
+        <TopNavBar />
+        <BannerPhoto 
+            text='See the technologies we created'
+        />
+        <SectionHeader> Engineering </SectionHeader>
+        <AsymmetricOverlapSplit 
+            img_src="/robobot_gamepage_square.png"
+            title="Robobot"
+            description="An educational robotics coding platform with real-world physics in the browser!"
+            link="http://robobot.aegisinitiative.io"
+        />
+        <Footer />
+        {/** <div style={{
+            display:'flex',
+            justifyContent:'center',
+            backgroundColor: '#e8fffd'
+        }}>
+            <a href='http://robobot.aegisinitiative.io'
+                 target="_blank">
+                <Card
+                hoverable
+                style={{ width: '800px',
+                                 padding: '20px',
+                                 margin: '20px',
+                                 backgroundColor:'#d9fffb'
+                                  }}
+                cover={<img alt="example" 
+                                        src="/robobot_gamepage.png" />}
+                title="Robobot" >
+                <Meta title="An educational robotics environment in the browser with real-world physics" description="" />
+              </Card>
+          </a>
+      </div> */}
     </div>
   );
 }

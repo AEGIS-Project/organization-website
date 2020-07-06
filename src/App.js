@@ -6,6 +6,7 @@ import HomePage from './pages/home-page.js';
 import AboutUs from './pages/about-us.js';
 import OurMission from './pages/our-mission.js';
 import OurWork from './pages/our-work.js';
+import SupportUs from './pages/support-us.js';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
 	      <Route exact path="/who-we-are" component={AboutUs} />
 	      <Route exact path="/what-we-do" component={OurMission} />
 	      <Route exact path="/our-work" component={OurWork} />
+        <Route exact path="/support-us" component={SupportUs} />
 	    </Switch>
     </div>
   );

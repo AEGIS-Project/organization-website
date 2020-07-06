@@ -2,35 +2,35 @@ import React, { useRef, useState, useEffect } from 'react';
 import { Row, Col } from 'antd';
 import styles from '../styles/styles.module.css';
 
-function BannerPhoto({text}) {
-	const msg = 
-		<h2 className={styles.banner_font}>
-    	{text}
-    </h2>
-
-  return (
-    <div style={{backgroundColor:"black",
-  							 display:'flex',
-  							 alignItems:'center',
-  							 justifyContent:'flex-start',
-  							 overflowX:'hidden'}}>
-
-      <img src={'/robobot.png'}
-           style={{opacity:'0.5', 
-            		 	 objectFit:'cover',
-            		 	 backgroundSize:'cover'}} />
-
-      <Row style = {{position: 'absolute',
-    								 paddingLeft:'10vw'}}>
-      	<Col span={16}>
-      		{msg}
-      	</Col>
-      	<Col span={8}>
-      	</Col>
-      </Row>
-
-    </div>
-  );
+function BannerPhoto({ text }) {
+    return (
+        <div style={{
+            backgroundColor: "black",
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            overflowX: 'hidden',
+        }}>
+            <div style={{position: 'relative', display:'flex', justifyContent:'center'}}>
+                {<img
+                    src={'/robobot_gamepage.png'}
+                    style={{
+                        opacity: '0.5',
+                        objectFit: 'cover',
+                        backgroundSize: 'cover'
+                    }}
+                />}
+    
+                <Row style={{ position: 'absolute', top: '0px', width: '60%', height: '100%' }}>
+                    <Col span={16} style={{ display: 'flex', justifyContent: 'center', alignContent:'center'}}>
+                        <h1 className={styles.banner_font} style={{alignSelf:'center'}}> {text} </h1>
+                    </Col>
+                    <Col span={8}>
+                    </Col>
+                </Row>
+            </div>
+        </div>
+    );
 }
 
 export default BannerPhoto;
