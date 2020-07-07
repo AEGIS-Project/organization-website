@@ -29,7 +29,7 @@ export default function Footer() {
         </div>
 
         <div className="column">
-          <p className="col-title"> Company </p>
+          <p className="col-title"> AEGIS Initiative </p>
           <a
             className="col-item"
             href={"https://www.aegisinitiative.io/who-we-are"}
@@ -58,6 +58,16 @@ export default function Footer() {
           >
             contact@aegisinitiative.io
           </a>
+          <p className="col-item">
+          AEGIS Initiative <br />
+          1521 Shattuck Ave. #9419 <br />
+          Berkeley, CA, 94709 <br />
+          </p>
+          <br />
+          <p className="col-item">
+          &copy; Copyright 2020 The AEGIS Initiative. <br />
+          All rights reserved.
+          </p>
         </div>
       </div>
     </div>

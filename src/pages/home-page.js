@@ -32,7 +32,7 @@ function HomePage() {
 				description={<div>
 					<p><b>Accessibility:</b> We design all of our software to be available in the browser to everyone for free</p>
 					<p><b>Active Learning:</b> We want to encourage hands-on learning experiences through educational technologies that engage the student in both active learning and passive learning. </p>
-					<p><b>Cultivating Interests</b> We hope our technologies will help students explore and develop their interests.</p>
+					<p><b>Cultivating Interest</b> We hope our technologies will help students explore and develop their interests.</p>
 					</div>
 				}
 			/>
