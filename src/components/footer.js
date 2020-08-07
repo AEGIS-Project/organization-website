@@ -9,7 +9,7 @@ export default function Footer() {
           <p className="col-title"> Products </p>
           <a
             className="col-item"
-            href={"https://robobot.aegisinitiative.io/"}
+            href={"https://lernrobotics.aegisinitiative.io/"}
             target={"_blank"}
           >
             Robobot
@@ -20,7 +20,7 @@ export default function Footer() {
           <p className="col-title"> For Developers </p>
           <a
             className="col-item"
-            href={"https://bitbucket.org/theaegisinitiative/"}
+                      href={"https://github.com/The-AEGIS-Initiative"}
             target={"_blank"}
           >
             Contribute
