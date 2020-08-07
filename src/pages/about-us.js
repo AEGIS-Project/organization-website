@@ -7,8 +7,8 @@ import TextSection from '../components/text-section.js'
 import ContentContainer from "../components/content-container";
 
 function AboutUs() {
-  return (
-    <div>
+	return (
+		<div className="site-layout-content">
         <TopNavBar />
         <BannerPhoto 
       		text={<div style={{fontSize: '42px', fontWeight: '700'}}>ABOUT US</div>}

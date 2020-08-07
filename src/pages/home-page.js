@@ -10,8 +10,8 @@ import TextSection from '../components/text-section.js'
 import ContentContainer from "../components/content-container";
 
 function HomePage() {
-  return (
-    <div>
+	return (
+		<div className ="site-layout-content">
         <TopNavBar />
         <BannerPhoto 
         	text='We build technologies that make hands-on educational experiences more accessible'
