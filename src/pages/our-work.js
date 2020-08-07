@@ -11,8 +11,8 @@ import Footer from "../components/footer";
 function OurWork() {
     const { Meta } = Card;
 
-  return (
-    <div>
+    return (
+        <div className="site-layout-content">
         <TopNavBar />
         <BannerPhoto 
             text='See the technologies we created'

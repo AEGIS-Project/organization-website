@@ -5,8 +5,8 @@ import BannerPhoto from '../components/banner-photo.js'
 import Footer from "../components/footer";
 
 function SupportUs() {
-  return (
-    <div>
+    return (
+        <div className="site-layout-content">
       <TopNavBar />
       <BannerPhoto 
       	text='Support our work' 
