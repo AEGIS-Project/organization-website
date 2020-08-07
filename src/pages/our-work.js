@@ -20,7 +20,7 @@ function OurWork() {
         <SectionHeader> Engineering </SectionHeader>
         <AsymmetricOverlapSplit 
             img_src="/robobot_gamepage_square.png"
-            title="Robobot"
+            title="LernRobotics"
             description="An educational robotics coding platform with real-world physics in the browser!"
             link="http://lernrobotics.aegisinitiative.io"
         />
