@@ -1,9 +1,6 @@
-import React, { useRef, useState, useEffect } from 'react';
-import { Divider } from 'antd';
-import styles from '../styles/styles.module.css';
-import './text-section.css';
+import React from 'react';
 
-function TextSection({ children }) {
+function ContentContainer({ children }) {
     return (
         <div 
             style={{
@@ -17,4 +14,4 @@ function TextSection({ children }) {
     );
 }
 
-export default TextSection;
+export default ContentContainer;

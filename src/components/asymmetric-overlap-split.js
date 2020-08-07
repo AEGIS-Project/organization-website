@@ -1,6 +1,5 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React from 'react';
 import { Button } from 'antd';
-import styles from '../styles/styles.module.css';
 import './asymmetric-overlap-split.css';
 
 function AsymmetricOverlapSplit({ img_src, title, description, link }) {
@@ -9,13 +8,14 @@ function AsymmetricOverlapSplit({ img_src, title, description, link }) {
             <div className="bottom-block">
                 <img
                     src={img_src}
+                    alt=""
                 />
             </div>
             <div className="top-block">
                 <div className="title"> {title} </div>
                 <div className="description"> {description} </div>
                 <Button type="primary" size="large">
-                    <a href={link} target="_blank">Learn More</a> 
+                    <a href={link} target="_blank" rel="noopener noreferrer">Learn More</a> 
                 </Button>
             </div>
         </div>

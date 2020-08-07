@@ -1,6 +1,4 @@
 import React from 'react';
-import { Button } from 'antd';
-import { Card } from 'antd';
 
 import TopNavBar from '../components/top-nav-bar.js'
 import BannerPhoto from '../components/banner-photo.js'
@@ -9,8 +7,6 @@ import AsymmetricOverlapSplit from '../components/asymmetric-overlap-split.js'
 import Footer from "../components/footer";
 
 function OurWork() {
-    const { Meta } = Card;
-
   return (
     <div>
         <TopNavBar />

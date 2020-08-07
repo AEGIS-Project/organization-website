@@ -1,6 +1,5 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React from 'react';
 import { Divider } from 'antd';
-import styles from '../styles/styles.module.css';
 import './section-header.css';
 
 function SectionHeader({ text, children }) {

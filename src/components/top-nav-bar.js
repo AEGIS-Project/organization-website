@@ -1,4 +1,4 @@
-import React, { useState , useRef , useContext } from 'react';
+import React from 'react';
 import { Menu } from 'antd';
 import { Link } from 'react-router-dom';
 
@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 * Main navigation bar
 */
 function TopNavBar () {
-  const [currentTab, setCurrentTab] = useState('')
 
   // Handle nav bar clicks
   const handleClick = click => {
@@ -20,7 +19,6 @@ function TopNavBar () {
             justifyContent:"flex-start"}}>
 
         <Menu onClick={handleClick}
-            selectedKeys={[currentTab]}
             mode="horizontal"
             theme="light"
             style={{width:"100vw",

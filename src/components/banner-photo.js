@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React from 'react';
 import { Row, Col } from 'antd';
 import styles from '../styles/styles.module.css';
 
@@ -19,6 +19,7 @@ function BannerPhoto({ text }) {
                         objectFit: 'cover',
                         backgroundSize: 'cover'
                     }}
+                    alt=""
                 />}
     
                 <Row style={{ position: 'absolute', top: '0px', width: '60%', height: '100%' }}>

@@ -11,6 +11,7 @@ export default function Footer() {
             className="col-item"
             href={"https://lernrobotics.aegisinitiative.io/"}
             target={"_blank"}
+            rel="noopener noreferrer"
           >
             Robobot
           </a>
@@ -22,6 +23,7 @@ export default function Footer() {
             className="col-item"
                       href={"https://github.com/The-AEGIS-Initiative"}
             target={"_blank"}
+            rel="noopener noreferrer"
           >
             Contribute
           </a>
@@ -34,6 +36,7 @@ export default function Footer() {
             className="col-item"
             href={"https://www.aegisinitiative.io/who-we-are"}
             target={"_blank"}
+            rel="noopener noreferrer"
           >
             About Us
           </a>
@@ -43,6 +46,7 @@ export default function Footer() {
               className="col-item"
               href={"https://www.aegisinitiative.io/support-us"}
               target={"_blank"}
+              rel="noopener noreferrer"
             >
               Support Us
             </a> 
@@ -55,6 +59,7 @@ export default function Footer() {
             className="col-item email-link"
             href={"mailto:contact@aegisinitiative.io"}
             target={"_blank"}
+            rel="noopener noreferrer"
           >
             contact@aegisinitiative.io
           </a>

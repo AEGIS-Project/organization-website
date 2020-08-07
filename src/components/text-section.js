@@ -1,6 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
-import { Divider } from 'antd';
-import styles from '../styles/styles.module.css';
+import React from 'react';
 import './text-section.css';
 
 function TextSection({ title, description }) {
