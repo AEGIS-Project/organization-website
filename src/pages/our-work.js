@@ -22,7 +22,7 @@ function OurWork() {
             img_src="/robobot_gamepage_square.png"
             title="Robobot"
             description="An educational robotics coding platform with real-world physics in the browser!"
-            link="http://robobot.aegisinitiative.io"
+            link="http://lernrobotics.aegisinitiative.io"
         />
         <Footer />
         {/** <div style={{
@@ -30,7 +30,7 @@ function OurWork() {
             justifyContent:'center',
             backgroundColor: '#e8fffd'
         }}>
-            <a href='http://robobot.aegisinitiative.io'
+            <a href='http://lernrobotics.aegisinitiative.io'
                  target="_blank">
                 <Card
                 hoverable
