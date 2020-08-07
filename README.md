@@ -14,11 +14,3 @@
 3. Make frequent commits: `git commit <files-to-commit> -m <commit-msg>`
 3. `git push -u origin <your-branch-name>`
 4. Create a pull request to master
-
-When your branch is no longer needed, you should delete it
-
-- `git branch -d <your-branch-name>`
-  
-Delete the upstream branch (Do not delete branches that are not yours!)
-
-- `git push origin --delete <your-branch-name>`
