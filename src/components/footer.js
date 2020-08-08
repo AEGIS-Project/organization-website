@@ -13,7 +13,7 @@ export default function Footer() {
             target={"_blank"}
             rel="noopener noreferrer"
           >
-            Robobot
+            LernRobotics
           </a>
         </div>
 
@@ -21,7 +21,7 @@ export default function Footer() {
           <p className="col-title"> For Developers </p>
           <a
             className="col-item"
-                      href={"https://github.com/The-AEGIS-Initiative"}
+            href={"https://github.com/The-AEGIS-Initiative"}
             target={"_blank"}
             rel="noopener noreferrer"
           >
@@ -41,7 +41,7 @@ export default function Footer() {
             About Us
           </a>
           <p className="col-item"> Our Team </p>
-          <p className="col-item"> 
+          <p className="col-item">
             <a
               className="col-item"
               href={"https://www.aegisinitiative.io/support-us"}
@@ -49,7 +49,7 @@ export default function Footer() {
               rel="noopener noreferrer"
             >
               Support Us
-            </a> 
+            </a>
           </p>
         </div>
 
@@ -64,14 +64,14 @@ export default function Footer() {
             contact@aegisinitiative.io
           </a>
           <p className="col-item">
-          AEGIS Initiative <br />
-          1521 Shattuck Ave. #9419 <br />
-          Berkeley, CA, 94709 <br />
+            AEGIS Initiative <br />
+            1521 Shattuck Ave. #9419 <br />
+            Berkeley, CA, 94709 <br />
           </p>
           <br />
           <p className="col-item">
-          &copy; Copyright 2020 The AEGIS Initiative. <br />
-          All rights reserved.
+            &copy; Copyright 2020 The AEGIS Initiative. <br />
+            All rights reserved.
           </p>
         </div>
       </div>
