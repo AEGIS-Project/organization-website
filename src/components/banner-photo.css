@@ -1,0 +1,32 @@
+.banner-photo {
+  display: "flex";
+  align-items: "center";
+  justify-content: "center";
+  overflow-x: "hidden";
+  background: rgb(36, 48, 65);
+  background: linear-gradient(
+    180deg,
+    rgba(36, 48, 65, 1) 24%,
+    rgba(51, 68, 97, 1) 100%
+  );
+  height: calc(100vh - 72px);
+}
+
+.headline {
+  font-size: 42px;
+}
+
+.banner-photo .position-bottom {
+  position: absolute;
+  bottom: 8vh;
+  left: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+.banner-photo .anticon-down svg {
+  width: 2em;
+  height: 2em;
+  fill: #e6ffff;
+}

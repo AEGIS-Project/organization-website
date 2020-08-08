@@ -13,7 +13,7 @@ function HomePage() {
   return (
     <div className="site-layout-content">
       <TopNavBar />
-      <BannerPhoto text="We build technologies that make hands-on educational experiences more accessible" />
+      <BannerPhoto text="We build technologies to make hands-on educational experiences more accessible for everyone" />
       <ContentContainer>
         <TextSection
           title="OUR VISION"

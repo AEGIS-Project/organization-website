@@ -5,8 +5,8 @@ function ContentContainer({ children }) {
     <div
       style={{
         position: "relative",
-        width: "60%",
-        marginLeft: "20%",
+        width: "70%",
+        marginLeft: "15%",
       }}
     >
       {children}

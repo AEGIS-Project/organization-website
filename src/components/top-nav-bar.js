@@ -25,8 +25,8 @@ function TopNavBar() {
             alignContent: "center",
             justifyContent: "center",
             backgroundColor: "#243041",
-            fontSize: "16px",
-            lineHeight: "55px",
+            fontSize: "18px",
+            lineHeight: "70px",
             fontFamily: "Lucida Console",
             border: "0px",
           }}
@@ -35,7 +35,7 @@ function TopNavBar() {
             <Link to={"/"}>
               <b
                 style={{
-                  fontSize: "18px",
+                  fontSize: "20px",
                   color: "#bbbbbb",
                 }}
               >

@@ -4,6 +4,7 @@ export default function FillSpace({
   backgroundColor,
   children,
   height = "100vh",
+  background,
 }) {
   return (
     <div
@@ -16,6 +17,7 @@ export default function FillSpace({
         justifyContent: "center",
         flexDirection: "column",
         alignItems: "center",
+        background: `${background}`,
       }}
     >
       {children}

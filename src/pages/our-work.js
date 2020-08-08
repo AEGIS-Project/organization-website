@@ -28,6 +28,7 @@ function OurWork() {
       <FillSpace
         backgroundColor="#1B1B1B"
         style={{ position: "absolute", top: "0" }}
+        background="linear-gradient(180deg, rgba(36,48,65,1) 24%, rgba(51,68,97,1) 100%)"
       >
         <div style={{ position: "absolute", top: "0" }}>
           {" "}
