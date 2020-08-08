@@ -33,7 +33,7 @@ function OurWork() {
         </div>
         <Fade bottom>
           <div>
-            <div className="product-series-header">LERN</div>
+            <div className="product-series-header">Project LERN</div>
             <div className="product-series-description">
               The LERN series is our effort to create accessible free
               educational software on a wide range of topics
