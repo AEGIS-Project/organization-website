@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Fade from "react-reveal";
 import { DownOutlined } from "@ant-design/icons";
-import { Divider } from "antd";
 
 import TopNavBar from "../components/top-nav-bar.js";
 import AsymmetricOverlapSplit from "../components/asymmetric-overlap-split.js";
 import Footer from "../components/footer";
 import FillSpace from "../components/fill_space";
-import SectionHeader from "../components/section-header";
 
 import "./our-work.css";
 
