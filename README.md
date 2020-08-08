@@ -1,4 +1,5 @@
 # The AEGIS Initiative
+[![Actions Status](https://github.com/The-AEGIS-Initiative/organization-website/workflows/deploy_s3/badge.svg)](https://github.com/The-AEGIS-Initiative/organization-website/actions)
 
 ## Requirements
 - Node.js / NPM: [https://nodejs.org/en/](https://nodejs.org/en/)
