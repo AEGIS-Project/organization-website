@@ -23,6 +23,6 @@ jobs:
       - name: Deploy app build to S3 bucket
         run: aws s3 sync build/ s3://aegisinitiative-organization-website --acl public-read --delete
       - name: Invalidate Cloudfront Cache
-        run: aws cloudfront create-invalidation --distribution-id $aws-cloudfront-distribution-id --paths "/*"
+        run: aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
         env:
-          aws-cloudfront-distribution-id: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} 
+          CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} 
