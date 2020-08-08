@@ -1,12 +1,16 @@
 import React from "react";
 
-export default function FillSpace({ backgroundColor, children }) {
+export default function FillSpace({
+  backgroundColor,
+  children,
+  height = "100vh",
+}) {
   return (
     <div
       style={{
         position: "relative",
-        height: "100vh",
-        width: "100vw",
+        height: `${height}`,
+        width: "100%",
         backgroundColor: `${backgroundColor}`,
         display: "flex",
         justifyContent: "center",

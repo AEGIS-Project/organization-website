@@ -1,18 +1,18 @@
 .asymmetric-overlap-split {
   position: relative;
-  background-color: #e8f0fb;
+  background-color: #e6ffff;
   margin: 4%;
 }
 
 .asymmetric-overlap-split .bottom-block {
   height: 100%;
-  width: 65%;
+  width: 90%;
   background-color: #e8f0fb;
 }
 
 .asymmetric-overlap-split .top-block {
   position: absolute;
-  top: 25%;
+  top: 20%;
   margin-left: 35%;
   height: 60%;
   width: 65%;

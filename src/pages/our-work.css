@@ -1,24 +1,27 @@
 .product-series-header {
-  color: #e6ffff;
+  color: #1d2b34;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 55px;
   display: flex;
   margin-bottom: 20vh;
   justify-content: center;
+  text-decoration: underline;
 }
 
 .product-series-description {
-  color: #e6ffff;
+  color: #111111;
   font-weight: 300px;
-  font-size: 20px;
+  font-size: 24px;
 }
 
-.vertical-dots {
+.our-work .banner-title {
   color: #e6ffff;
-  position: absolute;
-  bottom: 40px;
   font-weight: 700;
-  margin-left: 50vw;
+  font-size: 55px;
+}
+
+.our-work {
+  background-color: #e6ffff;
 }
 
 .vertical-dots .dot {
@@ -27,7 +30,7 @@
 
 .our-work .position-bottom {
   position: absolute;
-  bottom: 30px;
+  bottom: 5vh;
   left: 50%;
   margin-left: auto;
   margin-right: auto;
