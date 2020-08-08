@@ -1,24 +1,22 @@
-import React from 'react';
+import React from "react";
 
-import TopNavBar from '../components/top-nav-bar.js'
-import BannerPhoto from '../components/banner-photo.js'
-import SectionHeader from '../components/section-header.js'
-import AsymmetricOverlapSplit from '../components/asymmetric-overlap-split.js'
+import TopNavBar from "../components/top-nav-bar.js";
+import BannerPhoto from "../components/banner-photo.js";
+import SectionHeader from "../components/section-header.js";
+import AsymmetricOverlapSplit from "../components/asymmetric-overlap-split.js";
 import Footer from "../components/footer";
 
 function OurWork() {
   return (
     <div className="site-layout-content">
       <TopNavBar />
-      <BannerPhoto 
-          text='See the technologies we created'
-      />
+      <BannerPhoto text="See the technologies we created" />
       <SectionHeader> Engineering </SectionHeader>
-      <AsymmetricOverlapSplit 
-          img_src="/robobot_gamepage_square.png"
-          title="LernRobotics"
-          description="An educational robotics coding platform with real-world physics in the browser!"
-          link="http://lernrobotics.aegisinitiative.io"
+      <AsymmetricOverlapSplit
+        img_src="/robobot_gamepage_square.png"
+        title="LernRobotics"
+        description="An educational robotics coding platform with real-world physics in the browser!"
+        link="http://lernrobotics.aegisinitiative.io"
       />
       <Footer />
       {/** <div style={{

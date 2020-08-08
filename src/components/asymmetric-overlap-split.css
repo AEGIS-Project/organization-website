@@ -1,55 +1,58 @@
 .asymmetric-overlap-split {
-	position: relative;
-	background-color: #e8f0fb;
-	margin: 4%;
+  position: relative;
+  background-color: #e8f0fb;
+  margin: 4%;
 }
 
-	.asymmetric-overlap-split .bottom-block {
-		height: 100%;
-		width: 65%;
-		background-color: #e8f0fb;
-	}
+.asymmetric-overlap-split .bottom-block {
+  height: 100%;
+  width: 65%;
+  background-color: #e8f0fb;
+}
 
-	.asymmetric-overlap-split .top-block {
-		position: absolute;
-		top: 25%;
-		margin-left: 35%;
-		height: 60%;
-		width: 65%;
-		background-color: #005b86;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.1), 6.7px 6.7px 5.3px rgba(0, 0, 0, 0.1), 15.5px 15.5px 10px rgba(0, 0, 0, 0.1)
-	}
+.asymmetric-overlap-split .top-block {
+  position: absolute;
+  top: 25%;
+  margin-left: 35%;
+  height: 60%;
+  width: 65%;
+  background-color: #005b86;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.1),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.1), 15.5px 15.5px 10px rgba(0, 0, 0, 0.1);
+}
 
 .asymmetric-overlap-split img {
-	width: 100%;
+  width: 100%;
 }
 
-.asymmetric-overlap-split h1,h2,h3 {
-	color: white;
+.asymmetric-overlap-split h1,
+h2,
+h3 {
+  color: white;
 }
 
-	.asymmetric-overlap-split .top-block .title {
-		color: #e6ffff;
-		font-size: 40px;
-		font-weight: 700;
-		margin-bottom: 3%;
-	}
+.asymmetric-overlap-split .top-block .title {
+  color: #e6ffff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 3%;
+}
 
-	.asymmetric-overlap-split .top-block .description {
-		color: #e6ffff;
-		font-size: 24px;
-		font-weight: 300;
-		margin-bottom: 2%;
-	}
+.asymmetric-overlap-split .top-block .description {
+  color: #e6ffff;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 2%;
+}
 
-	.asymmetric-overlap-split Button {
-		border: 0px;
-		color: #1d2b34;
-		font-size: 24px;
-		font-weight: 500;
-		height: 50px;
-	}
+.asymmetric-overlap-split Button {
+  border: 0px;
+  color: #1d2b34;
+  font-size: 24px;
+  font-weight: 500;
+  height: 50px;
+}

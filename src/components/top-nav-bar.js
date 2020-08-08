@@ -1,41 +1,46 @@
-import React from 'react';
-import { Menu } from 'antd';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Menu } from "antd";
+import { Link } from "react-router-dom";
 
 /**
-* Main navigation bar
-*/
-function TopNavBar () {
-
+ * Main navigation bar
+ */
+function TopNavBar() {
   // Handle nav bar clicks
-  const handleClick = click => {
+  const handleClick = (click) => {
     // Do nothing
   };
 
   return (
     <div>
-      <div style={{display:"flex",
-            flex:1,
-            justifyContent:"flex-start"}}>
-
-        <Menu onClick={handleClick}
-            mode="horizontal"
-            theme="light"
-            style={{width:"100vw",
-                  display:"flex",
-                  flex:1,
-                  alignContent:"center",
-                  justifyContent:"center",
-                  backgroundColor:"#243041",
-                  fontSize:"16px",
-                  lineHeight:"55px",
-                  fontFamily:"Lucida Console",
-                  }}>
-                  <Menu.Item key="home"
-                      style={{marginRight: 'auto'}}>
-                      <Link to={"/"}><b style={{
-                          fontSize: "18px",
-                          color: "#bbbbbb"}}>The AEGIS Initiative</b></Link>
+      <div style={{ display: "flex", flex: 1, justifyContent: "flex-start" }}>
+        <Menu
+          onClick={handleClick}
+          mode="horizontal"
+          theme="light"
+          style={{
+            width: "100vw",
+            display: "flex",
+            flex: 1,
+            alignContent: "center",
+            justifyContent: "center",
+            backgroundColor: "#243041",
+            fontSize: "16px",
+            lineHeight: "55px",
+            fontFamily: "Lucida Console",
+          }}
+        >
+          <Menu.Item key="home" style={{ marginRight: "auto" }}>
+            <Link to={"/"}>
+              <b
+                style={{
+                  fontSize: "18px",
+                  color: "#bbbbbb",
+                }}
+              >
+                The AEGIS Initiative
+              </b>
+            </Link>
           </Menu.Item>
 
           {/**<Menu.Item key="aboutus">
@@ -47,22 +52,32 @@ function TopNavBar () {
           </Menu.Item>*/}
 
           <Menu.Item key="projects">
-                      <Link to={"/our-work"}><b style={{
-                          color: "#bbbbbb"
-                      }}>OUR WORK</b></Link>
+            <Link to={"/our-work"}>
+              <b
+                style={{
+                  color: "#bbbbbb",
+                }}
+              >
+                OUR WORK
+              </b>
+            </Link>
           </Menu.Item>
 
           <Menu.Item key="supportus">
-                      <Link to={"/support-us"}><b style={{
-                          color: "#bbbbbb"
-                      }}>SUPPORT US</b></Link>
+            <Link to={"/support-us"}>
+              <b
+                style={{
+                  color: "#bbbbbb",
+                }}
+              >
+                SUPPORT US
+              </b>
+            </Link>
           </Menu.Item>
-
-
         </Menu>
       </div>
     </div>
   );
 }
 
-export default TopNavBar
+export default TopNavBar;
