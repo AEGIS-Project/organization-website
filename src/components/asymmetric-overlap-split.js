@@ -14,7 +14,7 @@ function AsymmetricOverlapSplit({ img_src, title, description, link }) {
             <div className="top-block">
                 <div className="title"> {title} </div>
                 <div className="description"> {description} </div>
-                <Button type="primary" size="large">
+                <Button type="primary" size="large" style={{ background: "#e99e24"}}>
                     <a href={link} target="_blank" rel="noopener noreferrer">Learn More</a> 
                 </Button>
             </div>
