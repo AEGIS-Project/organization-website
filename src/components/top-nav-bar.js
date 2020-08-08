@@ -28,6 +28,7 @@ function TopNavBar() {
             fontSize: "16px",
             lineHeight: "55px",
             fontFamily: "Lucida Console",
+            border: "0px",
           }}
         >
           <Menu.Item key="home" style={{ marginRight: "auto" }}>
