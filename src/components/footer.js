@@ -13,7 +13,7 @@ export default function Footer() {
             target={"_blank"}
             rel="noopener noreferrer"
           >
-            LernRobotics
+            LERNRobotics
           </a>
         </div>
 

@@ -41,7 +41,7 @@ function OurWork() {
       <FillSpace backgroundColor="#e6ffff">
         <AsymmetricOverlapSplit
           img_src="/robobot_gamepage_square.png"
-          title="LERNrobotics"
+          title="LERNRobotics"
           description="An educational robotics coding platform with real-world physics in the browser!"
           link="http://lernrobotics.aegisinitiative.io"
         />
