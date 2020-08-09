@@ -6,6 +6,7 @@ import TopNavBar from "../components/top-nav-bar.js";
 import AsymmetricOverlapSplit from "../components/asymmetric-overlap-split.js";
 import Footer from "../components/footer";
 import FillSpace from "../components/fill_space";
+import BannerPhoto from "../components/banner-photo.js";
 
 import "./our-work.css";
 
@@ -23,26 +24,13 @@ function OurWork() {
       {/**<BannerPhoto text="See the technologies we created" />
       <SectionHeader> Engineering </SectionHeader>
       */}
-      <FillSpace
-        backgroundColor="#1B1B1B"
-        style={{ position: "absolute", top: "0" }}
-        background="linear-gradient(180deg, rgba(36,48,65,1) 24%, rgba(51,68,97,1) 100%)"
-      >
-        <div style={{ position: "absolute", top: "0" }}>
-          {" "}
-          <TopNavBar />{" "}
-        </div>
-        <Fade bottom>
-          <div>
-            <div className="banner-title">SEE OUR WORK</div>
-            <div className="position-bottom">
-              <Fade when={showNext}>
-                <DownOutlined />
-              </Fade>
-            </div>
-          </div>
-        </Fade>
-      </FillSpace>
+      <div style={{ height: "100vh" }}>
+        <TopNavBar />
+        <BannerPhoto
+          title="Our Work"
+          text="We build technologies that provide accessible educational resources to students worldwide"
+        />
+      </div>
       <FillSpace
         backgroundColor="#e8f0fb"
         style={{ position: "absolute", top: "0" }}

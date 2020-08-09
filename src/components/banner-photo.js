@@ -5,7 +5,7 @@ import { Row, Col } from "antd";
 import styles from "../styles/styles.module.css";
 import "./banner-photo.css";
 
-function BannerPhoto({ text }) {
+function BannerPhoto({ title, text }) {
   const [showNext, setShowNext] = useState(false);
 
   useEffect(() => {
@@ -16,42 +16,33 @@ function BannerPhoto({ text }) {
 
   return (
     <div className="banner-photo">
-      <div
+      <Row
         style={{
-          position: "relative",
-          display: "flex",
-          justifyContent: "center",
+          marginLeft: "15%",
+          width: "70%",
+          height: "100%",
         }}
       >
-        {/**
-          <img
-            src={"/robobot_gamepage.png"}
-            style={{
-              opacity: "0.5",
-              objectFit: "cover",
-              backgroundSize: "cover",
-            }}
-            alt=""
-          />
-        */}
-
-        <Row
+        <Col
+          span={16}
           style={{
-            position: "absolute",
-            width: "70%",
-            height: "100vh",
+            display: "flex",
+            justifyContent: "center",
+            alignContent: "center",
+            flexDirection: "column",
+            height: "100%",
           }}
         >
-          <Col
-            span={16}
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignContent: "center",
-              flexDirection: "column",
-              height: "100%",
-            }}
-          >
+          <Fade right>
+            <h1
+              className={`${styles.banner_font} headline`}
+              style={{ alignSelf: "start", borderBottom: "1.5px solid white" }}
+            >
+              {" "}
+              {title}{" "}
+            </h1>
+          </Fade>
+          <Fade bottom>
             <h1
               className={`${styles.banner_font} headline`}
               style={{ alignSelf: "center" }}
@@ -59,15 +50,15 @@ function BannerPhoto({ text }) {
               {" "}
               {text}{" "}
             </h1>
-          </Col>
-          <Col span={8}></Col>
-          <div className="position-bottom">
-            <Fade when={showNext}>
-              <DownOutlined />
-            </Fade>
-          </div>
-        </Row>
-      </div>
+          </Fade>
+        </Col>
+        <Col span={8}></Col>
+        <div className="position-bottom">
+          <Fade when={showNext}>
+            <DownOutlined />
+          </Fade>
+        </div>
+      </Row>
     </div>
   );
 }

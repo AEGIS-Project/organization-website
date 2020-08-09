@@ -12,8 +12,13 @@ import ContentContainer from "../components/content-container";
 function HomePage() {
   return (
     <div className="site-layout-content">
-      <TopNavBar />
-      <BannerPhoto text="We build technologies to make hands-on educational experiences more accessible for everyone" />
+      <div style={{ height: "100vh" }}>
+        <TopNavBar />
+        <BannerPhoto
+          title="Our Mission"
+          text="To make quality educational experiences more accessible for everyone through technology"
+        />
+      </div>
       <ContentContainer>
         <TextSection
           title="OUR VISION"
