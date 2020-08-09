@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Fade from "react-reveal";
-import { DownOutlined } from "@ant-design/icons";
 
 import TopNavBar from "../components/top-nav-bar.js";
 import AsymmetricOverlapSplit from "../components/asymmetric-overlap-split.js";
@@ -11,14 +10,6 @@ import BannerPhoto from "../components/banner-photo.js";
 import "./our-work.css";
 
 function OurWork() {
-  const [showNext, setShowNext] = useState(false);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setShowNext(true);
-    }, 1000);
-  }, []);
-
   return (
     <div className="site-layout-content our-work">
       {/**<BannerPhoto text="See the technologies we created" />
