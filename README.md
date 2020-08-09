@@ -4,9 +4,11 @@
 [![Actions Status](https://github.com/The-AEGIS-Initiative/organization-website/workflows/deploy_s3/badge.svg)](https://github.com/The-AEGIS-Initiative/organization-website/actions)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=The-AEGIS-Initiative_organization-website&metric=alert_status)](https://sonarcloud.io/dashboard?id=The-AEGIS-Initiative_organization-website)
 
-This repo is the codebase of the main organization website for [The AEGIS Initiative](https://www.aegisinitiative.io).
 
-The AEGIS Initiative is a **non-profit organization dedicated to building accessible educational technologies** with the goal of providing every student the tools and resources they need to succeed. 
+**[The AEGIS Initiative](https://www.aegisinitiative.io) is a non-profit organization dedicated to building accessible educational technologies** with the goal of providing every student the tools and resources they need to succeed. 
+
+This repo is the codebase for [The AEGIS Initiative's](https://www.aegisinitiative.io) main organization website. 
+
 
 ## For developers
 
